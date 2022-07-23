@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 5px;
+  padding: 0;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
  /* .intro {
   width: 50%;
@@ -27,14 +32,15 @@ h1{
     margin-bottom: 20px;
   }
 }
-.hero_bar .bar {
-  background-color: rgb(229, 198, 230);
+.bar {
+  background-color: rgb(245, 224, 246);
   width: 80%;
-  height: 4em;
-  margin: 10px;
-  border-radius: 4px;
-  list-style-type: none;
-}/*
+  /* height: 4em;*/
+  margin-left: 45px; 
+  border-radius: 9px;
+  list-style-type: none; 
+}
+/*
 .bar{
   float: left;
 } */
@@ -49,8 +55,8 @@ h1{
   list-style-type: none; 
 }/*
 /**/
-.info img {
-  width: 15%;
+.row-info img {
+  width: 50%;
   border-radius: 50px;
 }
 
@@ -71,13 +77,26 @@ h1{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #913c81;
+  background-color: #571e4c;
   border-radius: 10px;
 }
-body {
+.color{
+  color: rgb(243, 247, 250);
+}
+.col{
+  color: #b24b9d;
+}
+.purple
+{
+  color: #571e4c;
+}
+.row-info
+{
+  float: left;
+}
+/* body {
   text-align: center;
-  margin: 4.5em;
   font-family: "League Spartan", sans-serif;
   font-family: "Outfit", sans-serif;
-}
+} */
 /* # sourceMappingURL=style1.css.map  */
