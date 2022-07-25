@@ -1,0 +1,230 @@
+* {
+    margin: 2%;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+    font-family: "Outfit", sans-serif;
+}
+.hero{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+    max-width: 20ch;
+     /* margin-left: auto; */
+   /* margin-right: auto; */
+    text-align: left;
+    color: rgb(84, 46, 85);
+}
+.intro{
+    color: rgb(125, 79, 124);
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+.bar1 {
+    background-color: rgba(231, 214, 232, 0.614);
+    width: 80%;
+    margin-top: 50px;  
+    border-radius: 8px;
+    display: flex ;
+}
+.bar2 {
+    background-color: rgba(231, 214, 232, 0.614);
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 8px;
+    /* list-style-type: none; */
+    /* text-align: center; */
+    display: flex ;
+}
+.bar3 {
+    background-color: rgba(231, 214, 232, 0.614);
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 100px;
+    border-radius: 8px;
+    /* list-style-type: none; */
+    /* text-align: center; */
+    display: flex ;
+}
+.stars{
+    display: flex;
+    margin-left: 20px;
+}
+.starx{
+    width: 20px;
+    height: 15px;
+}
+.row-info img {
+  width: 50%;
+  border-radius: 50px;
+}
+
+.row {
+  /* margin: 0 -5px; */
+  display: flex;
+}
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+/* @media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+} */
+.phrase{
+  white-space: nowrap;
+  color: rgb(118, 63, 121);
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #571e4c;
+  border-radius: 9px;
+  margin-right: -20px;
+}
+.card2 {
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #571e4c;
+  border-radius: 9px;
+  margin-left: -20px;
+}
+.card3 {
+  margin-top: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #571e4c;
+  border-radius: 9px;
+  margin-left: -20px;
+}
+.color{
+  color: rgb(243, 247, 250);
+}
+.col{
+  color: #b24b9d;
+}
+.purple
+{
+  color: #571e4c;
+}
+.row-info
+{
+  float: left;
+}
+.text
+{
+  margin-top: 10%;
+  text-align: left;
+}
+.name
+{
+  text-align: start;
+}
+@media screen and (max-width: 750px) {
+ .row {
+    /* margin: 0 -5px; */
+   display: block;
+ } 
+ .column {
+   width: 100%;
+   display: block;
+   margin-bottom: 20px;
+ }
+ .hero {
+   display: block;
+}
+h1, .intro
+{
+ text-align: center;
+}
+.intro{
+  margin-left: -2%;
+  font-size: 15px;
+  text-align:center;
+}
+h1
+{
+  margin-left: -12%;
+ font-size: 33px;
+ padding-top: 15%;
+ margin-left: 12%;
+ margin-right: 15%;
+}
+.bar1 {
+ background-color: rgba(231, 214, 232, 0.614);
+ width: 95%;
+ margin-top: 10px;  
+ border-radius: 8px;
+ display: block ;
+ padding: 5px;
+ margin-left: -5%;
+ text-align: center;
+}
+.bar2 {
+ background-color: rgba(231, 214, 232, 0.614);
+ width: 95%;
+ margin-top: 15px;  
+ border-radius: 8px;
+ display: block ;
+ margin-left: -5%;
+ padding: 5px;
+ text-align: center;
+}
+.bar3 {
+ background-color: rgba(231, 214, 232, 0.614);
+ width: 95%;
+ margin-top: 15px;  
+ border-radius: 8px;
+ display: block ;
+ margin-left: -5%;
+ padding: 5px;
+ text-align: center;
+} 
+.card1 {
+ margin-top: 5px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ padding: 16px;
+ text-align: center;
+ background-color: #571e4c;
+ border-radius: 9px;
+ margin-left: -17px;
+ width: 89%;
+}
+.card2 {
+ margin-top: -5%;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ padding: 16px;
+ text-align: center;
+ background-color: #571e4c; 
+ border-radius: 9px;
+ width: 89%;
+ margin-left: -16px;
+}
+.card3 {
+ margin-top: -5%;
+ margin-bottom: 15%;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ padding: 16px;
+ text-align: center;
+ background-color: #571e4c;
+ border-radius: 9px;
+ width: 89%;
+ margin-left: -16px;
+}
+.stars{
+  margin-left: auto;
+  justify-content: center;
+}
+} 
